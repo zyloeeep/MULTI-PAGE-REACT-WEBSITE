@@ -18,19 +18,26 @@ body {
   justify-content: center;
   align-items: center;
   padding: 40px 0;
-  border-bottom: 1px solid rgba(121, 206, 157, 0.2);
   margin-bottom: 60px;
-  gap: 60px; 
+  gap: 60px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  border-bottom: 1px solid rgba(121, 206, 157, 0.2);
 }
 
 .nav-links a {
   color: #D8F3DC;
   text-decoration: none;
-  font-size: 11px;
+  font-size: 20px;
   letter-spacing: 0.15em;
   opacity: 0.8;
   transition: opacity 0.3s;
-  margin: 0 20px;
+  margin: 0 30px;
+  font-weight: 600;
 }
 
 .nav-links a:hover {
